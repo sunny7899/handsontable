@@ -1,3 +1,5 @@
+https://www.kaggle.com/tmdb/tmdb-movie-metadata
+https://handsontable.com/
 # Sheet
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
@@ -13,7 +15,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
+ng build --prod --baseHref="https://sunny7899.github.io/handsontable/"
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).

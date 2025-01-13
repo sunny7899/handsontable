@@ -7,7 +7,8 @@ import * as XLSX from 'xlsx';
 @Component({
   selector: 'app-basic',
   templateUrl: './basic.component.html',
-  styleUrls: ['./basic.component.scss']
+  styleUrls: ['./basic.component.scss'],
+  standalone: false
 })
 export class BasicComponent implements AfterViewInit {
   dataset = [];

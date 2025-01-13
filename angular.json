@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "sheet:build"
+            "buildTarget": "sheet:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "sheet:build:production"
+              "buildTarget": "sheet:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "sheet:build"
+            "buildTarget": "sheet:build"
           }
         },
         "test": {
